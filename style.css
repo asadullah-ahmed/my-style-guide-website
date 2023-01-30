@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+/* nav bar styling */
+h1 {
+  padding: 20px;
+  background-image: linear-gradient(aqua 40%, aquamarine);
+  color: magenta;
+  font-family: rancho, sans-serif;
+  font-size: 80px;
+}
+h2 {
+  font-family: rancho, sans-serif;
+  font-size: 60px;
+  color: magenta;
+  background-image: linear-gradient(aqua, aquamarine);
+  margin-bottom: 30px;
+  padding: 10px;
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: aquamarine;
+  margin: 20px 10px 0 0;
+  border-radius: 10px;
+  width: 200px;
+  font-weight: bold;
+}
+nav ul li:hover {
+  border: 2px solid magenta;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li a:hover {
+  cursor: pointer;
+  color: magenta;
+}
+
+/* Styling Colors section */
+section {
+  border: 3px solid magenta;
+  margin: 20px;
+}
+.color-boxes div {
+  width: 150px;
+  height: 100px;
+  border: 5px solid transparent;
+  /* margin: 5px 10px; */
+}
+.color-boxes {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+.blue-one,
+div p {
+  background-color: #03045e;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding-top: 15px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 16px;
+}
+/* blue color row */
+.blue-two {
+  background-color: #023e8a;
+}
+.blue-three {
+  background-color: #0077b6;
+}
+.blue-four {
+  background-color: #0096c7;
+}
+.blue-five {
+  background-color: #00b4d8;
+}
+.blue-six {
+  background-color: #48cae4;
+}
+.blue-seven {
+  background-color: #90e0ef;
+}
+/* pink color row */
+
+.pink-one {
+  background-color: #ff0a54;
+}
+.pink-two {
+  background-color: #ff477e;
+}
+.pink-three {
+  background-color: #ff5c8a;
+}
+.pink-four {
+  background-color: #ff7096;
+}
+.pink-five {
+  background-color: #ff85a1;
+}
+.pink-six {
+  background-color: #ff99ac;
+}
+.pink-seven {
+  background-color: #fbb1bd;
+}
+
+/* green color shades */
+.green-one {
+  background-color: #006400;
+}
+.green-two {
+  background-color: #008000;
+}
+.green-three {
+  background-color: #228b22;
+}
+.green-four {
+  background-color: #32cd32;
+}
+.green-five {
+  background-color: #00ff00;
+}
+.green-six {
+  background-color: #00fa9a;
+}
+.green-seven {
+  background-color: #90ee90;
+}
+
+/* red color combinations */
+.red-one {
+  background-color: #8b0000;
+}
+.red-two {
+  background-color: #b22222;
+}
+.red-three {
+  background-color: #ff0000;
+}
+.red-four {
+  background-color: #dc143c;
+}
+.red-five {
+  background-color: #cd5c5c;
+}
+.red-six {
+  background-color: #f08080;
+}
+.red-seven {
+  background-color: #fa8072;
+}
+
+/* Styling My fonts Section */
+div ul li {
+  text-align: left;
+  margin: 5px 5px 0 40px;
+  font-family: "roboto", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.roboto {
+  font-family: "roboto", sans-serif;
+  background-color: #90e0ef;
+  color: magenta;
+}
+.roboto-p {
+  font-family: "roboto", sans-serif;
+  background-color: whitesmoke;
+  color: black;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.potta-one {
+  font-family: "potta one", cursive;
+  background-color: #90e0ef;
+  color: magenta;
+}
+.potta-one-p {
+  font-family: "potta one", cursive;
+  background-color: whitesmoke;
+  color: black;
+  text-align: left;
+  padding-left: 40px;
+}
+.rancho {
+  font-family: "rancho", cursive;
+  background-color: #90e0ef;
+  color: magenta;
+}
+.rancho-p {
+  font-family: "rancho", cursive;
+  background-color: whitesmoke;
+  color: black;
+  text-align: left;
+  padding-left: 40px;
+}
+.source-code-pro {
+  font-family: ".source code pro", monospace;
+  background-color: #90e0ef;
+  color: magenta;
+}
+.source-code-pro-p {
+  font-family: ".source code pro", monospace;
+  background-color: whitesmoke;
+  color: black;
+  text-align: left;
+  padding-left: 40px;
+}
+.nunito-sans {
+  font-family: "nunito sans" sans-serif;
+  background-color: #90e0ef;
+  color: magenta;
+}
+.nunito-sans-p {
+  font-family: "nunito sans" sans-serif;
+  background-color: whitesmoke;
+  color: black;
+  text-align: left;
+  padding-left: 40px;
+}
+.poppins {
+  font-family: "poppins", sans-serif;
+  background-color: #90e0ef;
+  color: magenta;
+}
+.poppins-p {
+  font-family: "poppins", sans-serif;
+  background-color: whitesmoke;
+  color: black;
+  text-align: left;
+  padding-left: 40px;
+}
+.heading-one {
+  font-family: "nunito sans", sans-serif;
+  font-weight: 700px;
+  font-size: 26px;
+  text-align: left;
+  background-color: #90e0ef;
+  color: magenta;
+  padding-left: 30px;
+}
+.heading-two {
+  font-family: "poppins", sans-serif;
+  font-weight: 500px;
+  font-size: 18px;
+  text-align: left;
+  background-color: #90e0ef;
+  color: magenta;
+  padding-left: 30px;
+}
+.paragraph {
+  font-family: "poppins", sans-serif;
+  font-weight: 400px;
+  font-size: 14px;
+  text-align: left;
+  background-color: #90e0ef;
+  color: magenta;
+  padding-left: 30px;
+}
+.text {
+  font-size: 1rem;
+  font-weight: normal;
+}
+/* Footer styling */
+footer h2 {
+  background-image: linear-gradient(yellow, orange);
+}
